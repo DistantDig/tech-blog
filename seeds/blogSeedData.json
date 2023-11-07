@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Just A Test Blog",
+      "user_id": 1,
+      "text": "This is a test blog about testing. In this blog I will be testing this blog to see how well it can blog in a test environment."
+    },
+    {
+        "title": "This Is Not A Blog",
+        "user_id": 2,
+        "text": "No matter what someone may tell you, this is not a blog. It may have the look of a blog, the name of a blog, but I assure you... it is NOT a blog."
+    },
+    {
+        "title": "A Blog By DevOn Duty",
+        "user_id": 3,
+        "text": "This is not a duty joke, its a Dev joke. Real mature."
+    }
+]

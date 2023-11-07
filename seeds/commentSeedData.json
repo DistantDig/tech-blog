@@ -1,0 +1,17 @@
+[
+    {
+        "user_id": 1,
+        "blog_id": 3,
+        "text": "As a tester, I can respect a good Dev joke"
+    },
+    {
+        "user_id": 2,
+        "blog_id": 2,
+        "text": "This comment is not by the same user."
+    },
+    {
+        "user_id": 3,
+        "blog_id": 1,
+        "text": "DevOnDuty here, I can confirm this is good test."
+    }
+]
