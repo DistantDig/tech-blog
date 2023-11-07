@@ -18,3 +18,12 @@ router.get('/', async (req, res) => {
         res.status(500).json(err);
     }
 });
+
+router.get('/login', (req, res) => {
+    if (req.session.loggedIn) {
+        res.redirect('/');
+        return;
+    }
+});
+
+module.exports = router;
