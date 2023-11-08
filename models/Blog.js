@@ -31,4 +31,4 @@ Blog.init(
     }
 );
 
-module.exports = Comment;
+module.exports = Blog;
