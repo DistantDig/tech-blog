@@ -1,8 +1,10 @@
 {{#each blogs as |blog| }}
 <div class="row align-center mb-5">
     <div class="col-md-6">
-        <h2>{{blog.title}}</h2>
-        <p>By {{user.username}}</p>
+        <a href="/api/blogs/{{blog.id}}">
+            <h2>{{blog.title}}</h2>
+            <p>By {{user.username}}</p>
+        </a>
     </div>
 </div>
 {{/each}}
