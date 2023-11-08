@@ -11,6 +11,9 @@ Blog.init(
             primaryKey: true,
             autoIncrement: true
         },
+        title: {
+            type: DataTypes.STRING
+        },
         user_id: {
             type: DataTypes.INTEGER,
             references: {
