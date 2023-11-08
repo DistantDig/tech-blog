@@ -19,7 +19,7 @@ Blog.init(
             }
         },
         text: {
-            type: DataType.STRING
+            type: DataTypes.STRING
         }
     },
     {
@@ -31,4 +31,4 @@ Blog.init(
     }
 );
 
-module.exports = Comment;
+module.exports = Blog;

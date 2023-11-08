@@ -21,18 +21,18 @@ User.init(
             allowNull: false
         },
         email: {
-            type: DataType.STRING,
+            type: DataTypes.STRING,
             allowNull:false,
             unique: true
         },
         password: {
-            type: DataType.STRING,
+            type: DataTypes.STRING,
             allowNull: false
         }
     },
     {
         hooks: {
-            async onCreate(newUserData) {
+            async beforeCreate(newUserData) {
                 newUserData.password = await bcrypt.hash(newUserData.password, 10);
                 return newUserData;
             }
