@@ -19,7 +19,7 @@ Blog.init(
             }
         },
         text: {
-            type: DataType.STRING
+            type: DataTypes.STRING
         }
     },
     {
