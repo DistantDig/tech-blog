@@ -27,8 +27,8 @@ const currentSession = {
 
 app.use(session(currentSession));
 
-app.engine('handebars', handlebars.engine);
-app.set('view engine', 'handebars');
+app.engine('handlebars', handlebars.engine);
+app.set('view engine', 'handlebars');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
