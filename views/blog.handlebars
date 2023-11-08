@@ -4,4 +4,7 @@
     <p>By: {{blog.user.username}}</p>
     <p>{{blog.text}}</p>
   </div>
+  {{#each blog.comments as |comment| }}
+  {{> comment}}
+  {{/each}}
 </section>
