@@ -14,7 +14,7 @@
       Latest Blogs
     </h1>
     
-    {{#if logged_in}}
+    {{#if loggedIn}}
     <nav>
       <button class="btn" id="logout">logout</button>
     </nav>
@@ -25,7 +25,7 @@
     {{{ body }}}
   </main>
 
-  {{#if logged_in}}
+  {{#if loggedIn}}
   <script src="/js/logout.js"></script>
   {{/if}}
 </body>
