@@ -19,6 +19,13 @@
       <button class="btn" id="logout">logout</button>
     </nav>
     {{/if}}
+    {{#unless loggedIn}}
+    <nav>
+      <a href="/login">
+        <button class="btn" id="login">login</button>
+      </a>
+    </nav>
+    {{/unless}}
   </header>
 
   <main class="container container-fluid mt-5">
