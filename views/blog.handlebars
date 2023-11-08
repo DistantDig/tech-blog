@@ -1,9 +1,10 @@
-<section class="blog">
+<section class="container">
   <div class="blog-details">
     <h3>{{blog.title}}</h3>
     <p>By: {{blog.user.username}}</p>
     <p>{{blog.text}}</p>
   </div>
+  <h4>Comments:</h3>
   {{#each blog.comments as |comment| }}
   {{> comment}}
   {{/each}}

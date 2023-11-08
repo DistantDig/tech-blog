@@ -1,10 +1,12 @@
 {{#each blogs as |blog| }}
-<div class="row align-center mb-5">
-    <div class="col-md-6">
-        <a href="/api/blogs/{{blog.id}}">
-            <h2>{{blog.title}}</h2>
-            <p>By {{user.username}}</p>
-        </a>
+<div class="card">
+    <div class="row align-center mb-5">
+        <div class="col-md-6">
+            <a href="/api/blogs/{{blog.id}}">
+                <h2>{{blog.title}}</h2>
+                <p>By {{user.username}}</p>
+            </a>
+        </div>
     </div>
 </div>
 {{/each}}
